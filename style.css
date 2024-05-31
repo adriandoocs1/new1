@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    border: none;
+    margin-top: 100px;
+    margin-left: 100px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    width: 90%;
+    height: 80px;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+nav ul li{
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 25px;
+    font-size: 17px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 1100px;
+
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+div{
+   
+    height: 700px;
+    width: 90%;
+    margin-left: 100px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.box{
+    background-color: gray;
+    width:600px;
+    height: 500px;
+    border: none;
+    margin-top: 30px;
+    margin-left: 900px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.text{
+    position: relative;
+    top: 250px;
+    font-size: 50px;
+    margin-left: 100px;
+}
+.text2{
+    position: relative;
+    top: 250px;
+    font-size: 20px;
+    margin-left: 100px;
+}
+
+.text3{
+    position: relative;
+    top: 250px;
+    font-size: 50px;
+    margin-left: 200px;
+}
+.text4{
+    position: relative;
+    top: 250px;
+    font-size: 20px;
+    margin-left: 200px;
+}
+.text5{
+    font-size: 50px;
+}
+.text6{
+    margin-top: -20px;
+    font-size: 20px;
+}
+.text7{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 50px ;
+}
+.text8{
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+.featured{
+    display: flex;
+    justify-content: right;
+    margin-top: -80px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.dog{
+    width: 250px;
+    height: 300px;
+    margin-top: 200px;
+    margin-left: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.flop{
+    margin-left: 15px;
+}
+.cat{
+    width: 250px;
+    height: 300px;
+    margin-top: 200px;
+    margin-right: 200px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.bingus{
+    margin-left: 15px;
+}
+.formcontainer{
+
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+
+}
+form{
+    width: 600px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    margin-left: 100px;
+    position: relative;
+    top: 100px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+ 
+}
+form p{
+    margin-left: 50px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+input{
+    width: 500px;
+    height: 25px;
+    margin-left: 50px;
+    margin-top: -20px;
+}
+button{
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    margin-left: 200px;
+    margin-top: 25px;
+
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+.formphoto{
+    background-color: lightskyblue;
+    width: 600px;
+    height: 500px;
+    margin-top: -400px;
+    margin-left: 900px;
+
+}
+.community{
+    height: 1100px;
+
+}
+.post1container{
+    height: 400px;
+    width: 600px;
+    margin-top: 50px;
+    margin-left:525px ;
+    background-color: rgb(240, 240, 240);
+}
+.header{
+    width: 600px;
+    height: 50px;
+    margin: 0 ;
+    
+}
+
+.footer1{
+    height: 50px;
+    width: 600px;
+    margin: 0;
+    margin-top: 300px;
+}
+.username{
+    position: relative;
+    top: 15px;
+    left: 50px;
+}
+.caption{
+    position: relative;
+    top: 15px;
+    left: 30px;
+    font-size: 17px;
+}
+.post2container{
+    height: 400px;
+    width: 600px;
+    margin-top: 50px;
+    margin-left:525px ;
+    background-color: rgb(240, 240, 240);
+}
+.header2{
+    height: 50px;
+    width: 600px;
+    margin: 0;
+}
+.username2{
+    position: relative;
+    top: 15px;
+    left: 50px;
+}
+.footer2{
+    height: 50px;
+    width: 600px;
+    margin: 0;
+    margin-top: 300px;
+}
+.caption2{
+    position: relative;
+    top: 15px;
+    left: 40px;
+    font-size: 17px;
+}
+
+.picture{
+
+    width: 900px;
+    height: 300px;
+    position: relative;
+    top: 150px;
+    left: 300px;
+    background-color: rgb(240, 240, 240);
+}
+.picturecaption{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+}
+.caption3{
+    margin: 0;
+    margin-top: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
